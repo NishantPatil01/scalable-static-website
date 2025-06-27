@@ -17,3 +17,8 @@ This project demonstrates a scalable, secure, and automated static website deplo
 └── .github/
 └── workflows/
 └── deploy.yml
+
+##  Live Website
+[https://www.nishantpatil.dev](https://www.nishantpatil.dev)
+
+This domain is mapped to a CloudFront distribution serving static content from an S3 bucket with HTTPS enabled via AWS Certificate Manager.

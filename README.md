@@ -22,13 +22,18 @@ This project demonstrates a scalable, secure, and automated static website deplo
 [https://d25s3q6kn8penm.cloudfront.net](https://d25s3q6kn8penm.cloudfront.net)
 
 ## Cloudfrount + S3 integration steps
-Steps Completed:
+### Steps Completed:
+
 1.Created S3 bucket (nishant-devops-website) with static website hosting enabled
+
 2.Uploaded index.html and error.html
+
 3.Disabled "Block Public Access" and applied a public bucket policy
+
 4.Created a CloudFront distribution
-  - Origin set to: nishant-devops-website.s3-website-us-east-2.amazonaws.com
-  - Set Viewer Protocol Policy to Redirect HTTP to HTTPS
+- Origin set to: nishant-devops-website.s3-website-us-east-2.amazonaws.com
+- Set Viewer Protocol Policy to Redirect HTTP to HTTPS
+
 5.Linked CloudFront to the bucket with OAC. 
 
 
